@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de Modelos Webcam con IA | Monetiza en Redes</title>
+    <!-- Tailwind CSS CDN para estilos rápidos y responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Configuración de Colores Personalizados (Basados en la imagen) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#020617', // Fondo principal muy oscuro
+                        cardBg: '#0a1026', // Fondo de tarjetas azul oscuro
+                        neonBlue: '#00e1ff', // Azul neón brillante
+                        neonOrange: '#ff9100', // Naranja/Dorado brillante
+                        accentPurple: '#7c3aed'
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neon-blue': '0 0 15px rgba(0, 225, 255, 0.6)',
+                        'neon-orange': '0 0 15px rgba(255, 145, 0, 0.6)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Estilos adicionales para efectos de neón */
+        .text-glow-blue { text-shadow: 0 0 10px rgba(0, 225, 255, 0.8); }
+        .text-glow-orange { text-shadow: 0 0 10px rgba(255, 145, 0, 0.8); }
+        .border-glow-blue { box-shadow: inset 0 0 10px rgba(0, 225, 255, 0.3), 0 0 15px rgba(0, 225, 255, 0.5); }
+        .border-glow-orange { box-shadow: inset 0 0 10px rgba(255, 145, 0, 0.3), 0 0 15px rgba(255, 145, 0, 0.5); }
+        
+        /* Gradiente de fondo sutil */
+        body {
+            background: radial-gradient(circle at center top, #0a1a44, #020617);
+            min-height: 100vh;
+        }cop
+    </style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1288404480042500');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1288404480042500&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body class="text-gray-100 font-sans antialiased">
+
+    <!-- --- SECCIÓN HERO --- -->
+    <header class="relative pt-8 pb-4 text-center px-4 overflow-hidden">
+        <h3 class="text-neonBlue tracking-widest font-bold mb-2 uppercase">Creación de</h3>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-2 text-glow-blue uppercase leading-none">
+            Modelos <br>
+            <span class="text-neonOrange text-glow-orange">Webcam</span> con IA
+        </h1>
+        <p class="text-lg text-gray-300 mt-4 max-w-xl mx-auto">
+            Convierte la Inteligencia Artificial en tu mejor fuente de ingresos.
+        </p>
+
+        <!-- Imagen Principal (curso.png) -->
+        <div class="mt-8 relative z-10">
+            <div class="rounded-3xl overflow-hidden shadow-neon-blue border-2 border-neonBlue/30 mx-auto max-w-md md:max-w-2xl p-1 bg-cardBg">
+                 <!-- NOTA: En un entorno real, aquí iría la etiqueta <img> apuntando a tu archivo de imagen -->
+                 <!-- <img src="ruta/a/tu/curso.png" alt="Modelo IA" class="w-full rounded-2xl"> -->
+                 <img src="img/correccion.png" alt="curso de ia">
+                 <div style="background-image: url(img src="curso.png"); background-size: cover; background-position: center; aspect-ratio: 9/16;" class="w-full rounded-2xl"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- --- SECCIÓN DE BENEFICIOS RÁPIDOS --- -->
+    <section class="py-8 px-4 bg-cardBg/50 mt-4">
+        <h2 class="text-2xl font-bold text-center text-neonBlue mb-6 uppercase">Capacítate para Monetizar</h2>
+        <div class="grid grid-cols-2 gap-4 max-w-md mx-auto text-center md:grid-cols-4">
+            <div class="p-4 border border-neonBlue/30 rounded-xl bg-darkBg shadow-lg">
+                <i class="fas fa-clock text-3xl text-neonBlue mb-2"></i>
+                <p class="font-bold text-sm">ACCESO INMEDIATO</p>
+            </div>
+            <div class="p-4 border border-neonBlue/30 rounded-xl bg-darkBg shadow-lg">
+                <i class="fas fa-cloud-download-alt text-3xl text-neonBlue mb-2"></i>
+                <p class="font-bold text-sm">DESCARGA DIGITAL</p>
+            </div>
+            <div class="p-4 border border-neonBlue/30 rounded-xl bg-darkBg shadow-lg">
+                <i class="fas fa-book-open text-3xl text-neonBlue mb-2"></i>
+                <p class="font-bold text-sm">PASO A PASO</p>
+            </div>
+            <div class="p-4 border border-neonBlue/30 rounded-xl bg-darkBg shadow-lg">
+                <i class="fas fa-shield-alt text-3xl text-neonBlue mb-2"></i>
+                <p class="font-bold text-sm">100% SEGURO</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SECCIÓN DE PRECIOS Y PAQUETES --- -->
+    <section class="py-12 px-4" id="oferta">
+        <div class="max-w-3xl mx-auto grid gap-6 md:grid-cols-3">
+            <!-- Curso Completo -->
+            <div class="bg-cardBg border-2 border-neonOrange/50 rounded-2xl p-6 text-center shadow-lg transform hover:scale-105 transition duration-300 relative overflow-hidden">
+                <h3 class="text-neonOrange font-bold text-xl mb-2 uppercase">Valor</h3>
+                <div class="text-4xl font-extrabold text-white mb-1">$25.000  -<span class="text-xl"> 10 USD</span></div>
+                <p class="text-gray-400 text-sm mb-4 uppercase font-bold">Curso Completo</p>
+                <ul class="text-left text-gray-300 text-sm space-y-2 mb-6">
+                    <li><i class="fas fa-check text-neonOrange mr-2"></i>Modelos Hiperrealistas</li>
+                    <li><i class="fas fa-check text-neonOrange mr-2"></i>Sincronización Labial</li>
+                    <li><i class="fas fa-check text-neonOrange mr-2"></i>Monetización en Redes</li>
+                </ul>
+                 <a href="#formulario-compra" class="block w-full py-3 bg-gradient-to-r from-neonOrange to-orange-600 rounded-full font-bold text-white uppercase tracking-wider shadow-neon-orange">Adquirir Ahora</a>
+             </div>
+            <!-- Bonus (Destacado) -->
+            <div class="bg-cardBg border-2 border-neonBlue rounded-2xl p-6 text-center shadow-neon-blue relative overflow-hidden md:-mt-4 md:mb-4 order-first md:order-none">
+                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 bg-neonBlue text-darkBg px-4 py-1 font-bold uppercase text-xs rounded-b-lg w-full">Recomendado</div>
+                <i class="fas fa-gift text-5xl text-neonBlue mb-4 mt-4"></i>
+                <h3 class="text-white font-bold text-2xl mb-2 uppercase text-glow-blue">Lleva el Paquete Premium</h3>
+                <p class="text-gray-300 mb-4">
+                    Catálogo de modelos IA listas para comenzar a trabajar.
+                </p>
+                <p class="text-neonBlue font-bold uppercase text-sm">¡Incluido en Paquete Premium!</p>
+            </div>
+
+
+		<!-- Paquete Premium -->
+             <div class="bg-cardBg border-2 border-neonOrange/50 rounded-2xl p-6 text-center shadow-lg transform hover:scale-105 transition duration-300 relative overflow-hidden">
+                <h3 class="text-neonOrange font-bold text-xl mb-2 uppercase">Paquete Premium</h3>
+                <div class="text-4xl font-extrabold text-white mb-1">$30.000  - <span class="text-xl">12 USD</span></div>
+                <p class="text-gray-400 text-sm mb-4 uppercase font-bold">Curso + Bonus Exclusivo</p>
+                <ul class="text-left text-gray-300 text-sm space-y-2 mb-6">
+                    <li><i class="fas fa-check text-neonOrange mr-2"></i>Todo lo del Curso Completo</li>
+                    <li><i class="fas fa-check text-neonOrange mr-2"></i>Catálogo de modelos IA con videos.</li>
+                </ul>
+                <a href="#formulario-compra" class="block w-full py-3 bg-gradient-to-r from-neonOrange to-orange-600 rounded-full font-bold text-white uppercase tracking-wider shadow-neon-orange">Adquirir Premium</a>
+            </div>
+        </div>
+        <p class="text-center text-gray-400 text-sm mt-6 bg-darkBg/50 p-3 rounded-lg max-w-md mx-auto border border-neonBlue/20">
+            <i class="fab fa-google-drive text-neonBlue mr-2"></i>
+            Después de confirmar tu pago, se envía automáticamente el enlace de descarga mediante Google Drive.
+        </p>
+    </section>
+
+
+    <!-- --- SECCIÓN DE MÉTODOS DE PAGO --- -->
+    <section class="py-8 px-4 text-center">
+        <h2 class="text-2xl font-bold text-white mb-8 uppercase">Métodos de Pago Seguros</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+            <!-- Botón Nequi -->
+            <a href="#formulario-compra" class="group flex items-center justify-between bg-cardBg border-2 border-pink-600 p-4 rounded-xl shadow-lg hover:bg-pink-900/20 transition duration-300 cursor-pointer">
+                <div class="text-left">
+                    <p class="text-pink-500 font-bold uppercase text-sm mb-1">Pago Nacional (Colombia)</p>
+                    <span class="text-2xl font-black text-white tracking-wider">NEQUI</span>
+                </div>
+                <img src="img/nequi.jpg" alt="Nequi Logo" class="h-12 opacity-80 group-hover:opacity-100 transition">
+            </a>
+
+             <!-- Botón PayPal -->
+             <a href="#formulario-compra" class="group flex items-center justify-between bg-cardBg border-2 border-blue-500 p-4 rounded-xl shadow-lg hover:bg-blue-900/20 transition duration-300 cursor-pointer">
+                <div class="text-left">
+                    <p class="text-blue-400 font-bold uppercase text-sm mb-1">Pago Internacional</p>
+                    <span class="text-2xl font-black text-white tracking-wider">PayPal</span>
+                </div>
+                <i class="fab fa-paypal text-5xl text-blue-500 opacity-80 group-hover:opacity-100 transition"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- --- SECCIÓN DE FORMULARIO WHATSAPP --- -->
+    <section id="formulario-compra" class="py-16 px-4 bg-darkBg relative overflow-hidden">
+        <!-- Efecto de fondo -->
+        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-neonBlue/10 via-darkBg to-darkBg pointer-events-none"></div>
+
+        <div class="max-w-lg mx-auto relative z-10 bg-cardBg p-8 rounded-3xl shadow-neon-blue border border-neonBlue/30">
+            <h2 class="text-3xl font-extrabold text-center mb-2 text-white uppercase text-glow-blue">
+                ¡Finaliza tu Compra!
+            </h2>
+            <p class="text-center text-gray-300 mb-8">Completa tus datos para generar la orden de pago y recibir tu acceso.</p>
+
+            <form id="whatsappForm" class="space-y-5">
+                <!-- Agrupación Nombre/Apellido -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="nombre" class="block text-sm font-bold text-neonBlue mb-1">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" class="w-full bg-darkBg border border-neonBlue/50 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neonBlue focus:ring-1 focus:ring-neonBlue transition">
+                    </div>
+                    <div>
+                        <label for="apellido" class="block text-sm font-bold text-neonBlue mb-1">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido" class="w-full bg-darkBg border border-neonBlue/50 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neonBlue focus:ring-1 focus:ring-neonBlue transition">
+                    </div>
+                </div>
+
+                 <!-- Dirección -->
+                 <div>
+                    <label for="direccion" class="block text-sm font-bold text-neonBlue mb-1">Correo electronico </label>
+                    <input type="text" id="direccion" name="direccion" required placeholder="modelo@gmail.com" class="w-full bg-darkBg border border-neonBlue/50 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neonBlue focus:ring-1 focus:ring-neonBlue transition">
+                </div>
+
+                <!-- Datos de Producto (Según solicitud del usuario, aunque sea digital) -->
+                <div class="p-4 bg-darkBg/50 rounded-lg border border-neonOrange/30">
+                    <p class="text-xs text-neonOrange mb-3 text-center font-bold">DETALLES DEL PEDIDO</p>
+                    <div>
+                        <label for="estilo" class="block text-sm font-bold text-neonOrange mb-1">Paquete</label>
+                         <select id="estilo" name="estilo" class="w-full bg-cardBg border border-neonOrange/50 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neonOrange">
+                            <option value="Paquete Estandar $25K">Paquete Estándar ($25000-10 USD)</option>
+                            <option value="Paquete Premium $30K">Paquete Premium ($30000-12 USD)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Botón de Envío Principal -->
+                <button type="submit" class="w-full flex items-center justify-center space-x-2 py-4 bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-white font-black uppercase rounded-full shadow-lg hover:shadow-green-500/50 transition duration-300 text-lg mt-6 group relative overflow-hidden">
+                    <span class="relative z-10 flex items-center">
+                        <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                        PAGAR AHORA Y DESCARGAR
+                    </span>
+                    <!-- Brillo animado en el botón -->
+                    <div class="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-20 group-hover:animate-shine"></div>
+                </button>
+                <p class="text-xs text-center text-gray-400 mt-2"><i class="fas fa-lock text-neonBlue"></i> Tus datos están seguros y se enviarán a nuestro WhatsApp oficial.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Simple -->
+    <footer class="py-6 text-center text-gray-500 text-sm bg-darkBg">
+        <p>© 2026 Creación de Modelos IA. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <!-- --- JAVASCRIPT PARA FUNCIONALIDAD WHATSAPP --- -->
+    <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Evita que el formulario recargue la página
+
+            // 1. Obtener los valores de los campos
+            const nombre = document.getElementById('nombre').value;
+            const apellido = document.getElementById('apellido').value;
+            const direccion = document.getElementById('direccion').value;
+            const estilo = document.getElementById('estilo').value;
+
+            // 2. Número de destino (Tu número)
+            // NOTA IMPORTANTE: Se añade '57' (código de Colombia) por defecto para asegurar que funcione internacionalmente.
+            const telefonoDestino = "573102630295"; 
+
+            // 3. Construir el mensaje (Usamos %0A para saltos de línea y emojis para que sea visual)
+            let mensaje = `¡Hola! 🚀 Quiero adquirir el curso de *Modelos Webcam con IA*.%0A%0A`;
+            mensaje += `📝 *MIS DATOS DE PEDIDO:*%0A`;
+            mensaje += `👤 *Nombre:* ${nombre} ${apellido}%0A`;
+            mensaje += `🏠 *Dirección:* ${direccion}%0A%0A`;
+            mensaje += `📦 *DETALLES DEL PAQUETE:*%0A`;
+            mensaje += `🔖 *Selección:* ${estilo}%0A%0A`;
+            mensaje += `💰 Quedo atento a los datos de pago (Nequi/PayPal) para recibir el acceso inmediato a Google Drive. ¡Gracias!`;
+
+            // 4. Crear la URL de la API de WhatsApp
+            const urlWhatsApp = `https://wa.me/${telefonoDestino}?text=${mensaje}`;
+
+            // 5. Abrir WhatsApp en una nueva pestaña
+            window.open(urlWhatsApp, '_blank');
+        });
+
+        // Animación de brillo para el botón (CSS añadido vía JS para mantener un solo archivo)
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes shine {
+                100% { left: 125%; }
+            }
+            .animate-shine {
+                animation: shine 1s;
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+
+</body>
+</html>
